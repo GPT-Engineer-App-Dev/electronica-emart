@@ -31,7 +31,6 @@ const Products = ({ searchTerm }) => {
       <Input
         placeholder="Search products"
         value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
         mb={4}
       />
       <Select placeholder="Select category" value={category} onChange={handleCategoryChange} mb={4}>
